@@ -1,0 +1,45 @@
+@font-face{
+    font-family: "Blenda";
+    src: url("Script.otf")
+  }
+
+*{
+    
+    background-color: #4ecdc4 !important;
+}
+
+#quote{
+    color: #FFF;
+    font-family: Ubuntu;
+    margin-left: 3%;
+}
+
+#author{
+    color: #FFF;
+    font-family: "Blenda";
+    margin-bottom: 5%;
+    margin-top: 1%;
+}
+
+h1{
+    font-family: "Blenda";
+    color: #FFF;
+    font-size: 5em;
+    margin-bottom: 10%;
+}
+
+#one+{
+    font-family: Ubuntu;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+}
+
+.btn{
+    background-color: #CE8964 !important;
+    border: #CE8964 !important;
+}
